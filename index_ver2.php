@@ -25,7 +25,7 @@
 
 
 
-    $arrDept['CG'] = '采购';
+//    $arrDept['CG'] = '采购';
     $arrDept['SG'] = '生管';
     $arrDept['KQ'] = '烤漆';
     $arrDept['ZZ'] = '组装';
@@ -41,9 +41,32 @@
     $arrDept['ZX'] = '资讯';
 //sort($arrDept);
 
+//    
+    $arrSG = array('001_MDS计算流程');
+    $arrKQ = array('001_不合格品处理流程','002_BOM料领用','003_工单发料','004_工单退料','005_报工及完工作业流程','006_杂收单','007_消耗品请购及领用流程');
+    $arrZZ = array('001BOM料领用','002工单发料','003工单退料','004消耗品请购及领用流程','005报工及完工作业流程','006杂收单','007不合格品处理流程');
+    $arrJG = array('001_报工作业流程','002_杂收作业流程','003_不良品处理流程','004_消耗品请购、变更及领用流程','005_成套发料作业','006_退料流程','007_一阶段调拨作业');
+    $arrYZ = array('001_模具领用流程','002-模具归还流程','003-原料入库流程','004-领料流程','005-成套发料作业','006-报工作业流程','007-不合格品处理流程','008-杂收作业流程');
+    $arrSY = array('001_消耗品请购及领用流程','002_工单发料','003_BOM料领用','004_工单退料','005_报工作业流程','006_杂收单','007不合格品处理流程');
+    $arrGC = array('001_主分群码建立流程','002_集团料号建立流程','003_据点料号引入流程');
     $arrCG = array();
+    $arrMJ = array('002_模具资料建立','003_模具保养流程','004_模具领用作业');
+    $arrCW = array();
+    $arrZC = array();
+    $arrYW = array();
     $arrZX = array('001_測試AAA', '002_測試BBB', '003_測試CCC');
-    $arrAll["ZX"] = $arrZX;
+    $arrAll["SG"] = $arrSG;
+    $arrAll["KQ"] = $arrKQ;
+    $arrAll["ZZ"] = $arrZZ;
+    $arrAll["JG"] = $arrJG;
+    $arrAll["YZ"] = $arrYZ;
+    $arrAll["SY"] = $arrSY;
+    $arrAll["GC"] = $arrGC;
+    $arrAll["CG"] = $arrCG;
+    $arrAll["MJ"] = $arrMJ;
+    $arrAll["CW"] = $arrCW;
+    $arrAll["ZC"] = $arrZC;
+    $arrAll["YW"] = $arrYW;
     $arrAll["ZX"] = $arrZX;
 
     echo "<a name='top'></a>";
